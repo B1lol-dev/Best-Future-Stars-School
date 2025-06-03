@@ -19,15 +19,14 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-bfs-blue">
+    <header className="bg-none md:bg-bfs-blue">
       <Container>
         <nav className="flex items-center justify-between py-4">
           <Link to="/">
             <img
               src={logo_img}
               alt="The Best Future Stars"
-              height={111}
-              width={156}
+              className="h-[111px] w-[156] max-md:h-[57px] max-md:w-[80px]"
             />
           </Link>
           <ul className="flex items-center gap-11 text-bfs-white text-xl max-lg:hidden">
@@ -38,7 +37,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div
-            className={`hidden w-screen h-3/4 fixed transition-all duration-200 flex-col p-5 bg-bfs-blue top-0 left-0 max-lg:flex ${
+            className={`hidden w-screen h-10/12 fixed transition-all duration-200 flex-col p-5 bg-bfs-blue top-0 left-0 max-lg:flex ${
               showMenu ? "" : "-translate-y-full"
             }`}
           >
@@ -47,15 +46,14 @@ const Navbar = () => {
                 <img
                   src={logo_img}
                   alt="The Best Future Stars"
-                  height={57}
-                  width={80}
+                  className="h-[111px] w-[156] max-md:h-[57px] max-md:w-[80px]"
                 />
               </Link>
               <button onClick={() => setShowMenu(false)}>
-                <X size={24} />
+                <X size={24} className="text-bfs-white" />
               </button>
             </div>
-            <ul className="mt-11">
+            <ul className="mt-11 flex flex-col text-bfs-white text-xl gap-4">
               {navLinks.map((link) => (
                 <Link key={link} to="#">
                   <li>{link}</li>
@@ -72,13 +70,13 @@ const Navbar = () => {
           <div className="flex items-center gap-6">
             <button
               type="button"
-              className="text-bfs-white items-center justify-center hidden max-lg:flex"
+              className="text-bfs-white items-center justify-center hidden max-lg:flex max-md:text-bfs-blue"
             >
               <Phone size={24} />
             </button>
             <button
               type="button"
-              className="text-bfs-white items-center justify-center hidden max-lg:flex"
+              className="text-bfs-white items-center justify-center hidden max-lg:flex max-md:text-bfs-blue"
               onClick={toggleShowMenu}
             >
               <Menu size={24} />

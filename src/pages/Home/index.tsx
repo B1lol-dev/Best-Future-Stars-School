@@ -1,12 +1,10 @@
-import Container from "@/components/helpers/Container";
+import Hero from "./components/Hero";
 
 const Home = () => {
   return (
-    <section>
-      <Container>
-        <h1>Count</h1>
-      </Container>
-    </section>
+    <>
+      <Hero />
+    </>
   );
 };
 
