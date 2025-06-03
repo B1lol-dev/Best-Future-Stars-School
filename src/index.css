@@ -9,3 +9,7 @@
   --color-bfs-white-sc: #fafafa;
   --color-bfs-gray: #eeeeee;
 }
+
+button {
+  cursor: pointer;
+}

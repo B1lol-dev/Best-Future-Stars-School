@@ -3,6 +3,7 @@ import "./index.css";
 import { BrowserRouter } from "react-router-dom";
 import { lazy } from "react";
 import { Suspense } from "./utils/suspense";
+import "./i18n.ts";
 
 const App = lazy(() => import("./App"));
 
