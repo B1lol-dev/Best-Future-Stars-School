@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bfs-blue: #5855e7;
+  --color-bfs-purple: #6347eb;
+  --color-bfs-pink: #a23ac1;
+  --color-bfs-black: #000000;
+  --color-bfs-white: #ffffff;
+  --color-bfs-white-sc: #fafafa;
+  --color-bfs-gray: #eeeeee;
+}
