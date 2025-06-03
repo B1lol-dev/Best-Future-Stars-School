@@ -31,7 +31,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-none md:bg-bfs-blue">
+    <header className="bg-none md:bg-bfs-blue relative z-10">
       <Container>
         <nav className="flex items-center justify-between py-4">
           <Link to="/">

@@ -8,8 +8,13 @@
       "hero": {
         "title": "The Best Future Stars - farzandingiz kelajagi biz uchun muhim",
         "desc": "Tajribali o‘qituvchilarimiz farzandingiz uchun o‘quv jarayonini qiziqarli va samarali qiladi",
-        "call_btn": "Qo‘ng‘iroq qilish",
+        "call_btn": "Qo‘ng‘iroq",
         "info_btn": "Batafsil"
+      },
+      "about": {
+        "title": "Biz haqimizda",
+        "desc": "Qulay ta’lim va vaqt o‘tkazish uchun biz bolalarni kichik va qulay guruhlarga birlashtiramiz, ular yosh toifalari va ta’lim yo‘nalishlariga ko‘ra ajratiladi. Har bir bolaga individual yondashuv. Sinfda 10 nafardan ortiq o‘quvchi bo‘lmaydi. Ingliz tilini chuqurlashtirib o‘rganish. Bundan tashqari, bolalarimizni til amaliyoti uchun chet elga yuboramiz. Ta’lim 8:00 dan 17:00 gacha; 3 mahal muvozanatli ovqatlanish (istakka ko‘ra), uy vazifalarini bajarish.",
+        "info": "Farzandlaringiz uchun barcha sharoit va qulayliklar!"
       }
     }
   }
