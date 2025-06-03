@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "nav_links": ["Maktabimiz haqida", "Afzalliklar", "Sinfilar", "Kontaktlar"],
+    "button": "Biz bilan bog‘laning"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "The Best Future Stars - farzandingiz kelajagi biz uchun muhim",
+        "desc": "Tajribali o‘qituvchilarimiz farzandingiz uchun o‘quv jarayonini qiziqarli va samarali qiladi",
+        "call_btn": "Qo‘ng‘iroq qilish",
+        "info_btn": "Batafsil"
+      }
+    }
+  }
+}

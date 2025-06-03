@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "nav_links": ["About Our School", "Advantages", "Classes", "Contacts"],
+    "button": "Contact Us"
+  },
+  "pages": {
+    "home": {
+      "hero": {
+        "title": "The Best Future Stars - we care about your child's future",
+        "desc": "Our experienced teachers will make the learning process as interesting and effective as possible for your child",
+        "call_btn": "Call",
+        "info_btn": "Learn More"
+      }
+    }
+  }
+}
