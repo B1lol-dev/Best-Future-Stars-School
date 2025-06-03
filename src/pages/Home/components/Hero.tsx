@@ -22,13 +22,13 @@ const Hero = () => {
           <div className="mt-15 flex items-center gap-10">
             <button
               type="button"
-              className="max-w-[220px] h-[58px] text-2xl text-bfs-white px-8 py-1 rounded-lg border-2 border-bfs-purple bg-bfs-purple max-xl:h-auto max-xl:w-[160px] max-xl:px-4"
+              className="max-w-[220px] h-[58px] text-2xl text-bfs-white px-8 py-1 rounded-lg border-2 border-bfs-purple bg-bfs-purple max-xl:h-auto max-xl:max-w-[160px] max-xl:w-full max-xl:px-4"
             >
               {t("pages.home.hero.call_btn")}
             </button>
             <button
               type="button"
-              className="max-w-[220px] h-[58px] text-2xl text-bfs-black px-8 py-1 rounded-lg border-2 border-bfs-purple max-xl:h-auto max-xl:w-[160px] max-xl:px-4"
+              className="max-w-[220px] h-[58px] text-2xl text-bfs-black px-8 py-1 rounded-lg border-2 border-bfs-purple max-xl:h-auto max-xl:max-w-[160px] max-xl:w-full max-xl:px-4"
             >
               {t("pages.home.hero.info_btn")}
             </button>
