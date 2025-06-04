@@ -1,7 +1,7 @@
 {
   "navbar": {
-    "nav_links": ["About Our School", "Advantages", "Classes", "Contacts"],
-    "button": "Contact Us"
+    "nav_links": ["About our school", "Advantages", "Classes", "Contacts"],
+    "button": "Contact us"
   },
   "pages": {
     "home": {
@@ -9,13 +9,110 @@
         "title": "The Best Future Stars - we care about your child's future",
         "desc": "Our experienced teachers will make the learning process as interesting and effective as possible for your child",
         "call_btn": "Call",
-        "info_btn": "Learn More"
+        "info_btn": "More info"
       },
       "about": {
-        "title": "About Us",
-        "desc": "For comfortable education and leisure, we group children into small, comfortable groups divided by age categories and educational directions. We provide an individual approach to each child. No more than 10 students per class. In-depth study of the English language. In addition, we send our children abroad for language practice. Classes from 8:00 to 17:00; three balanced meals a day (optional), and homework assistance.",
+        "title": "About us",
+        "desc": "For comfortable education and leisure, we unite children in small, comfortable groups, which are divided by age categories as well as educational directions. Individual approach to each child. No more than 10 students per class. In-depth study of English. In addition, we send our children abroad for language practice. Classes from 8:00 to 17:00; 3 balanced meals a day (optional), homework assistance.",
         "info": "All conditions and comfort for your children!"
+      },
+      "features": {
+        "title": "Our advantages",
+        "cards": [
+          {
+            "id": 1,
+            "img": "https://bfs-api-inky.vercel.app/features/1.png",
+            "title": "3 meals a day",
+            "desc": "For a comfortable stay at our school, we prepare tasty and healthy food 3 times a day"
+          },
+          {
+            "id": 2,
+            "img": "https://bfs-api-inky.vercel.app/features/2.png",
+            "title": "IT technologies",
+            "desc": "The 21st century is the age of information technology. Your child will learn the basics of programming, trends in the world of gadgets, and professions of the future"
+          },
+          {
+            "id": 3,
+            "img": "https://bfs-api-inky.vercel.app/features/3.png",
+            "title": "Mental arithmetic",
+            "desc": "We teach children to quickly calculate complex mathematical operations in their minds"
+          },
+          {
+            "id": 4,
+            "img": "https://bfs-api-inky.vercel.app/features/4.png",
+            "title": "English speaking",
+            "desc": "For fluent English communication, we have a whole day dedicated to Speaking"
+          },
+          {
+            "id": 5,
+            "img": "https://bfs-api-inky.vercel.app/features/5.png",
+            "title": "Foreign languages",
+            "desc": "Our highly qualified teachers will teach children: English, Russian, Arabic, and Chinese"
+          }
+        ]
+      },
+      "classes": {
+        "title": "Classes",
+        "cards": [
+          {
+            "id": 1,
+            "img": "https://bfs-api-inky.vercel.app/classes/1.png",
+            "title": "1st grade",
+            "ages": "6-7 years",
+            "desc": "Calligraphy, speech therapy, English etiquette, spoken English, general education subjects, and sports activities",
+            "btn": "Enroll"
+          },
+          {
+            "id": 2,
+            "img": "https://bfs-api-inky.vercel.app/classes/2.png",
+            "title": "2nd grade",
+            "ages": "7-8 years",
+            "desc": "English 1 step, Chinese language, arithmetic, logical thinking, general education subjects, and sports activities",
+            "btn": "Enroll"
+          },
+          {
+            "id": 3,
+            "img": "https://bfs-api-inky.vercel.app/classes/3.png",
+            "title": "3rd grade",
+            "ages": "8-9 years",
+            "desc": "English 2 step, Arabic language, psychology, mental arithmetic, IT technologies, general education subjects, and sports activities",
+            "btn": "Enroll"
+          },
+          {
+            "id": 4,
+            "img": "https://bfs-api-inky.vercel.app/classes/4.png",
+            "title": "4th grade",
+            "ages": "9-10 years",
+            "desc": "English 3 step, French and German languages, IT technologies, general education subjects, and sports activities",
+            "btn": "Enroll"
+          },
+          {
+            "id": 5,
+            "img": "https://bfs-api-inky.vercel.app/classes/5.png",
+            "title": "0 grade",
+            "ages": "4-5 years",
+            "desc": "Mathematics, logical thinking, handwriting, art studio, IT technologies, robotics, gymnastics, taekwondo",
+            "btn": "Enroll"
+          }
+        ]
+      },
+      "contact": {
+        "main_title": "Contact us",
+        "title": "Contacts",
+        "address": "Tashkent, Chilanzar 16th quarter, Botirma street",
+        "phone": "+998970020771",
+        "phone2": "+998971970771 (Mon.-Fri. from 09:00 to 17:00)",
+        "title2": "Leave a request",
+        "desc": "In honor of our school's opening, we are giving a 20% discount",
+        "fname": "First name",
+        "lname": "Last name",
+        "number": "Phone number",
+        "send": "Send"
       }
     }
+  },
+  "footer": {
+    "contacts": "Contacts:",
+    "with_us": "Be with us:"
   }
 }

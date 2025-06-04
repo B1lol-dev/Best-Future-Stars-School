@@ -1,21 +1,118 @@
 {
   "navbar": {
-    "nav_links": ["Maktabimiz haqida", "Afzalliklar", "Sinfilar", "Kontaktlar"],
-    "button": "Biz bilan bog‘laning"
+    "nav_links": ["Maktabimiz haqida", "Afzalliklar", "Sinfilar", "Aloqa"],
+    "button": "Biz bilan bog‘lanish"
   },
   "pages": {
     "home": {
       "hero": {
-        "title": "The Best Future Stars - farzandingiz kelajagi biz uchun muhim",
-        "desc": "Tajribali o‘qituvchilarimiz farzandingiz uchun o‘quv jarayonini qiziqarli va samarali qiladi",
+        "title": "The Best Future Stars - farzandingiz kelajagi haqida qayg‘uramiz",
+        "desc": "Tajribali o‘qituvchilarimiz farzandingiz uchun o‘qish jarayonini maksimal darajada qiziqarli va samarali qiladi",
         "call_btn": "Qo‘ng‘iroq",
         "info_btn": "Batafsil"
       },
       "about": {
         "title": "Biz haqimizda",
-        "desc": "Qulay ta’lim va vaqt o‘tkazish uchun biz bolalarni kichik va qulay guruhlarga birlashtiramiz, ular yosh toifalari va ta’lim yo‘nalishlariga ko‘ra ajratiladi. Har bir bolaga individual yondashuv. Sinfda 10 nafardan ortiq o‘quvchi bo‘lmaydi. Ingliz tilini chuqurlashtirib o‘rganish. Bundan tashqari, bolalarimizni til amaliyoti uchun chet elga yuboramiz. Ta’lim 8:00 dan 17:00 gacha; 3 mahal muvozanatli ovqatlanish (istakka ko‘ra), uy vazifalarini bajarish.",
+        "desc": "Qulay ta’lim va vaqt o‘tkazish uchun bolalarni kichik va qulay guruhlarga ajratamiz, ular yosh toifalari va ta’lim yo‘nalishlari bo‘yicha bo‘linadi. Har bir bolaga individual yondashuv. Sinfda 10 nafardan ortiq o‘quvchi bo‘lmaydi. Ingliz tilini chuqur o‘rganish. Bundan tashqari, bolalarimizni chet elga til amaliyotiga yuboramiz. Ta’lim 8:00 dan 17:00 gacha; 3 mahal muvozanatli ovqatlanish (istalgan holda), uy vazifalarini bajarish.",
         "info": "Farzandlaringiz uchun barcha sharoit va qulayliklar!"
+      },
+      "features": {
+        "title": "Bizning afzalliklarimiz",
+        "cards": [
+          {
+            "id": 1,
+            "img": "https://bfs-api-inky.vercel.app/features/1.png",
+            "title": "3 mahal ovqatlanish",
+            "desc": "Maktabimizda qulay vaqt o‘tkazish uchun biz 3 mahal mazali va foydali ovqat tayyorlaymiz"
+          },
+          {
+            "id": 2,
+            "img": "https://bfs-api-inky.vercel.app/features/2.png",
+            "title": "IT texnologiyalar",
+            "desc": "21-asr — axborot texnologiyalari asri. Farzandingiz dasturlash asoslari, gadjetlar olamidagi tendensiyalar va kelajak kasblarini o‘rganadi"
+          },
+          {
+            "id": 3,
+            "img": "https://bfs-api-inky.vercel.app/features/3.png",
+            "title": "Mental arifmetika",
+            "desc": "Bolalarni murakkab matematik hisob-kitoblarni tezda yodda hisoblashga o‘rgatamiz"
+          },
+          {
+            "id": 4,
+            "img": "https://bfs-api-inky.vercel.app/features/4.png",
+            "title": "Ingliz tilida muloqot",
+            "desc": "Ingliz tilida erkin muloqot qilish uchun bizda butun kun Speaking darslari mavjud"
+          },
+          {
+            "id": 5,
+            "img": "https://bfs-api-inky.vercel.app/features/5.png",
+            "title": "Chet tillari",
+            "desc": "Malakali o‘qituvchilarimiz bolalarga ingliz, rus, arab va xitoy tillarini o‘rgatadi"
+          }
+        ]
+      },
+      "classes": {
+        "title": "Sinfilar",
+        "cards": [
+          {
+            "id": 1,
+            "img": "https://bfs-api-inky.vercel.app/classes/1.png",
+            "title": "1-sinflar",
+            "ages": "6-7 yosh",
+            "desc": "Kalligrafiya, logopediya, ingliz etiketi, ingliz tili so‘zlashuvi, umumta’lim fanlari va sport mashg‘ulotlari",
+            "btn": "Ro‘yxatdan o‘tish"
+          },
+          {
+            "id": 2,
+            "img": "https://bfs-api-inky.vercel.app/classes/2.png",
+            "title": "2-sinflar",
+            "ages": "7-8 yosh",
+            "desc": "Ingliz tili 1-bosqich, xitoy tili, arifmetika, mantiqiy fikrlash, umumta’lim fanlari va sport mashg‘ulotlari",
+            "btn": "Ro‘yxatdan o‘tish"
+          },
+          {
+            "id": 3,
+            "img": "https://bfs-api-inky.vercel.app/classes/3.png",
+            "title": "3-sinflar",
+            "ages": "8-9 yosh",
+            "desc": "Ingliz tili 2-bosqich, arab tili, psixologiya, mental arifmetika, IT texnologiyalar, umumta’lim fanlari va sport mashg‘ulotlari",
+            "btn": "Ro‘yxatdan o‘tish"
+          },
+          {
+            "id": 4,
+            "img": "https://bfs-api-inky.vercel.app/classes/4.png",
+            "title": "4-sinflar",
+            "ages": "9-10 yosh",
+            "desc": "Ingliz tili 3-bosqich, fransuz va nemis tili, IT texnologiyalar, umumta’lim fanlari va sport mashg‘ulotlari",
+            "btn": "Ro‘yxatdan o‘tish"
+          },
+          {
+            "id": 5,
+            "img": "https://bfs-api-inky.vercel.app/classes/5.png",
+            "title": "0-sinflar",
+            "ages": "4-5 yosh",
+            "desc": "Matematika, mantiqiy fikrlash, yozuv, tasviriy san’at, IT texnologiyalar, robototexnika, gimnastika, taekvondo",
+            "btn": "Ro‘yxatdan o‘tish"
+          }
+        ]
+      },
+      "contact": {
+        "main_title": "Biz bilan bog‘lanish",
+        "title": "Aloqa",
+        "address": "Toshkent shahri, Chilonzor 16-kvartal, Botirma ko‘chasi",
+        "phone": "+998970020771",
+        "phone2": "+998971970771 (Dushanba-Juma 09:00 dan 17:00 gacha)",
+        "title2": "Ariza qoldiring",
+        "desc": "Maktabimiz ochilishi munosabati bilan -20% chegirma!",
+        "fname": "Ism",
+        "lname": "Familiya",
+        "number": "Raqam",
+        "send": "Yuborish"
       }
     }
+  },
+  "footer": {
+    "contacts": "Aloqa:",
+    "with_us": "Biz bilan birga bo‘ling:"
   }
 }

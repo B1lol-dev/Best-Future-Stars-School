@@ -30,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section className="pb-[120px]">
       <Container>
         <h1 className="relative font-bold text-8xl text-center text-bfs-gray">
           {t("pages.home.contact.main_title")}
